@@ -1,0 +1,101 @@
+:root {
+  --bg: oklch(0.17 0.015 45);
+  --text: oklch(0.95 0.01 60);
+  --text-secondary: oklch(0.82 0.015 60);
+  --text-muted: oklch(0.78 0.02 60);
+  --text-dim: oklch(0.7 0.02 60);
+  --text-dimmer: oklch(0.65 0.02 60);
+  --text-dimmest: oklch(0.6 0.02 60);
+
+  --accent: oklch(0.75 0.14 55);
+  --accent-hover: oklch(0.85 0.13 55);
+  --accent-text: oklch(0.78 0.13 55);
+  --accent-dark: oklch(0.15 0.01 45);
+  --blue-accent: oklch(0.75 0.13 200);
+
+  --border: oklch(0.3 0.02 45);
+  --border-light: oklch(0.28 0.02 45);
+  --border-lighter: oklch(0.32 0.02 45);
+
+  --card-bg: oklch(0.2 0.018 45);
+  --input-bg: oklch(0.17 0.015 45);
+  --tag-bg: oklch(0.22 0.02 45);
+  --tag-bg-dim: oklch(0.19 0.015 45);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  background: var(--bg);
+}
+
+body {
+  color: var(--text);
+  font-family: 'Karla', sans-serif;
+  min-height: 100vh;
+}
+
+a {
+  color: var(--accent-text);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent-hover);
+}
+
+::selection {
+  background: oklch(0.75 0.14 55);
+  color: var(--accent-dark);
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Sora', sans-serif;
+}
+
+button {
+  font-family: 'Sora', sans-serif;
+  cursor: pointer;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page-enter {
+  animation: fadeUp 0.4s ease both;
+}
+
+.main {
+  flex: 1;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 48px;
+  width: 100%;
+}
+
+@media (max-width: 720px) {
+  .main {
+    padding: 0 20px;
+  }
+}
+
