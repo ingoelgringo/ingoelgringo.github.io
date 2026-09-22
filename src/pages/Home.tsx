@@ -23,9 +23,9 @@ export default function Home() {
             <Link to="/projekt" className="btn btn--primary">
               Se mina projekt
             </Link>
-            <Link to="/kontakt" className="btn btn--outline">
+            <a href="mailto:ingemar.berghult@gmail.com" className="btn btn--outline">
               Kontakta mig
-            </Link>
+            </a>
           </div>
         </div>
         <div className="hero-photo">

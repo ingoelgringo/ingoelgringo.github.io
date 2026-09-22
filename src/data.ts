@@ -9,12 +9,14 @@ export const projects = [
     description:
       'Vidareutveckling av mitt examensarbete, byggt på egen hand med Claude Code efter utbildningen. Bokningsflöde, adminvy och datalagring i en modern stack.',
     tags: ['React 19', 'TypeScript', 'Vite', 'MUI v6', 'Node.js', 'Express', 'PostgreSQL', 'Docker'],
+    images: ['/keramikApp_01.png', '/keramikApp_02.png', '/keramikApp_03.png'],
   },
   {
     title: 'Planering & exekvering för hundrastningsföretag',
     description:
       'Webbapplikation för att planera och köra rastningsscheman för ett hundrastningsföretag — byggd med Claude Code för att öva på Server Components och Server Actions.',
     tags: ['React 19', 'TypeScript', 'Next.js 16', 'App Router', 'Tailwind v4', 'Prisma 7'],
+    images: ['/hundrastningAdmin.png', '/hundrastningWalker.png'],
   },
 ];
 

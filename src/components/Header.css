@@ -44,6 +44,40 @@
   color: var(--accent-dark) !important;
 }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.social-links {
+  display: flex;
+  gap: 8px;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--border-lighter);
+  border-radius: 999px;
+  color: var(--text-secondary) !important;
+  transition: all 0.2s;
+}
+
+.social-link:hover {
+  color: var(--text) !important;
+  border-color: var(--border);
+  background: var(--card-bg);
+}
+
+.social-link svg {
+  width: 18px;
+  height: 18px;
+}
+
 .contact-btn {
   font-family: 'Sora', sans-serif;
   font-weight: 700;
