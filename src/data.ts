@@ -70,9 +70,6 @@ export const testimonial = {
 };
 
 export const contact = {
-  email: 'ingemar.berghult@gmail.com',
-  phone: '+46730400019',
-  phoneDisplay: '+46 730-400019',
   linkedin: 'https://linkedin.com/in/ingemar-berghult-300a5ab7',
   linkedinDisplay: 'linkedin.com/in/ingemar-berghult',
   github: 'https://github.com/ingoelgringo',
