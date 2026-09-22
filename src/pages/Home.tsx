@@ -14,10 +14,7 @@ export default function Home() {
             produkter från idé till drift.
           </h1>
           <p className="hero-text">
-            Nyutbildad fullstackutvecklare med fokus på TypeScript, React och Node.js. Under min
-            praktik på ScopeWorks byggde jag system för filtrering och visualisering av loggdata
-            — och sedan examen har jag fortsatt bygga egna produkter, med hjälp av AI-verktyg som
-            Claude Code, för att skärpa mig inom prestanda, skalbarhet och systemdesign.
+            Nyutbildad fullstackutvecklare med fokus på TypeScript, React och Node.js. Under min praktik på ScopeWorks byggde jag system för filtrering och visualisering av loggdata. Sedan examen har jag fortsatt bygga egna produkter, med hjälp av AI-verktyg som Claude Code, för att lära mig bra arbetsflöden till att bygga säkra och skalbara system.
           </p>
           <div className="hero-actions">
             <Link to="/projekt" className="btn btn--primary">
